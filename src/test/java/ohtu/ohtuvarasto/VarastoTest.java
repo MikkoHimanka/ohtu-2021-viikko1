@@ -123,6 +123,6 @@ public class VarastoTest {
     @Test
     public void toStringPalauttaaOikeanMerkkijonon() {
         varasto.lisaaVarastoon(1);
-        assertEquals("saldo = 1.0, vielä tilaa 9.0", varasto.toString());
+        assertEquals("saldo = 1., vielä tilaa 9.0", varasto.toString());
     }
 }
